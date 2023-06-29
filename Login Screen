@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: deepskyblue;
+        }
+
+        #main {
+            background-color: #0F192D;
+            width: 1350px;
+            height: 350px;
+            border-style: solid;
+            margin: 100px 0px 0px 0px;
+        }
+
+        #login {
+            border-bottom: 4px solid deepskyblue;
+            border-top: 4px solid #9336B4;
+            border-left: 4px solid black;
+            border-right: 4px solid black;
+            box-shadow: 14px 16px 20px #0000008c;
+            border-radius: 30px 0px 30px 0px;
+            width: 250px;
+            height: 310px;
+            border-style: solid;
+            margin: 20px 0px 20px 550px;
+        }
+
+        #label {
+            margin: 0px 0px 0px 90px;
+            padding: 30px 0px 0px 0px;
+            color: deepskyblue;
+            font-size: 25px;
+        }
+
+        #text {
+            font-size: 15px;
+            width: 150px;
+            color: deepskyblue;
+            background-color: #0F192D;
+            height: 20px;
+            margin: 30px 0px 0px 50px;
+            padding: 0px 0px 0px 10px;
+            border-bottom: 2px solid deepskyblue;
+            border-top: 0px;
+            border-left: 0px;
+            border-right: 0px;
+            font-weight: 100;
+            opacity: 0.2;
+        }
+
+        #link {
+            margin: 0px 0px 0px 0px;
+            padding: 30px 0px 0px 40px;
+            position: absolute;
+            height: 20px;
+            width: 20px;
+        }
+
+        #pass {
+            margin: 0px 0px 0px 0px;
+            padding: 30px 0px 0px 40px;
+            position: absolute;
+            height: 20px;
+            width: 20px;
+        }
+
+        #Button {
+            margin: 50px 0px 0px 30px;
+            padding: 0px 0px 0px 0px;
+            height: 25px;
+            width: 190px;
+            color: deepskyblue;
+            background-color: #0F192D;
+            border-radius: 20px;
+            border-style: solid;
+            border: 1px solid deepskyblue;
+        }
+
+        #forget {
+            color: deepskyblue;
+            margin: 0px 0px 0px 30px;
+            padding: 20px 0px 0px 0px;
+            font-size: 13px;
+        }
+
+        #sign {
+            color: deepskyblue;
+            margin: 0px 0px 0px 40px;
+            padding: 0px 0px 0px 0px;
+            font-size: 13px;
+        }
+     
+
+    </style>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="Common.css" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/08bef55afd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="main">
+        <div id="login">
+            <div>
+                <br />
+                <label id="label">Login</label>
+                <div>
+                    <a href="" id="link"><i class="fa-solid fa-user fa-2xs" style="color: #00bfff;"></i></></a>
+                    <textarea id="text">Username</textarea>
+                </div>
+                <div>
+                    <a href="" id="pass"><i class="fa-solid fa-unlock fa-2xs" style="color: #00bfff;"></i></></a>
+                    <textarea id="text">Password</textarea>
+                </div>
+                <div>
+                    <button id="Button">Submit</button>
+                </div>
+                <br />
+                <div>
+                    <label id="forget">Forget Password ?</label>
+                    <label id="sign">SignUp</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
